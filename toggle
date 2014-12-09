@@ -6,5 +6,5 @@ elif [ -d ".$1" ]
 then
 	mv ".$1" $1
 else
-	echo "Wether directory $1 nor .$1 does exist."
+	echo "Neither directory $1 nor .$1 does exist."
 fi
